@@ -4,7 +4,9 @@
   "description": "I create and host an endpoint using a node. The endpoint takes two GET request query parameters and returns specific information in JSON format.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "build": "echo 'No build step required'"
   },
   "keywords": [],
   "author": "",
