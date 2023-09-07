@@ -17,7 +17,8 @@ router.get("/api", (req, res) => {
   const utc_time = moment().utc().format("YYYY-MM-DDTHH:mm:ss[Z]");
 
   // Construct GitHub URLs
-  const github_file_url = "https://github.com/G-RIMA/Create_and_host_endpoint";
+  const github_file_url =
+    "https://github.com/G-RIMA/Create_and_host_endpoint/blob/main/app.js";
   const github_repo_url = "https://github.com/G-RIMA/Create_and_host_endpoint";
 
   // Create the JSON response
