@@ -18,7 +18,7 @@ router.get("/api", (req, res) => {
 
   // Construct GitHub URLs
   const github_file_url =
-    "https://github.com/G-RIMA/Create_and_host_endpoint/blob/main/app.js";
+    "https://github.com/G-RIMA/Create_and_host_endpoint/blob/main/functions/api.js";
   const github_repo_url = "https://github.com/G-RIMA/Create_and_host_endpoint";
 
   // Create the JSON response
