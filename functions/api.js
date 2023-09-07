@@ -34,6 +34,6 @@ router.get("/api", (req, res) => {
   res.json(response_data);
 });
 
-app.use("/api", router);
+app.use("/.netlify/functions/api", router);
 
 module.exports.handler = serverless(app);
