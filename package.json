@@ -1,0 +1,15 @@
+{
+  "name": "create_and_host_endpoint",
+  "version": "1.0.0",
+  "description": "I create and host an endpoint using a node. The endpoint takes two GET request query parameters and returns specific information in JSON format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
